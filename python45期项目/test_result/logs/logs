@@ -1,0 +1,52 @@
+2024-03-27 12:04:18,530-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1351}
+2024-03-27 12:04:22,983-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1351, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:04:27,522-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 12:04:32,045-INFO-my_logs.py-python-日志信息:删除课程-获取到的结果是：{'retcode': 0}
+2024-03-27 12:28:16,064-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1352}
+2024-03-27 12:29:31,560-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1353}
+2024-03-27 12:29:36,083-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1353, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:31:43,801-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1354}
+2024-03-27 12:31:48,291-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1354, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:31:54,720-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 500, 'reason': 'Traceback (most recent call last):\n  File "D:\\BaiduNetdiskDownload\\restapi\\restapi-teach\\backend\\lib\\common.py", line 69, in dispatch\n    return handler(request, *args, **kwargs)\n  File "D:\\BaiduNetdiskDownload\\restapi\\restapi-teach\\backend\\apps\\mgr\\handlers\\mgr.py", line 196, in handle_modify_course\n    self.checkMandatoryParams(request,[\'id\',\'newdata\'])\n  File "D:\\BaiduNetdiskDownload\\restapi\\restapi-teach\\backend\\lib\\common.py", line 83, in checkMandatoryParams\n    \'reason\': u"缺少参数`%s`" % param\nlib.common.JsonResponseException: {\'retcode\': 1, \'reason\': \'缺少参数`id`\'}\n'}
+2024-03-27 12:31:54,721-INFO-my_logs.py-python-日志信息:修改课程异常的结果是：0 != 500
+2024-03-27 12:36:46,184-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1355}
+2024-03-27 12:36:50,708-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1355, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:36:55,284-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 12:37:38,989-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1356}
+2024-03-27 12:37:43,457-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1356, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:37:48,072-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 12:39:02,268-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1357}
+2024-03-27 12:39:06,711-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1357, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 12:39:11,235-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 12:39:15,743-INFO-my_logs.py-python-日志信息:删除课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:05:16,353-INFO-my_logs.py-python-日志信息:添加老师-获取到的结果是：{'retcode': 0, 'id': 300}
+2024-03-27 13:05:24,875-INFO-my_logs.py-python-日志信息:列出老师-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 300, 'realname': '托尼', 'desc': '托尼老师', 'display_idx': 1, 'username': 'Toy', 'courses': [{'course_id': 1359}]}], 'total': 1}
+2024-03-27 13:05:33,551-INFO-my_logs.py-python-日志信息:修改老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:07:22,895-INFO-my_logs.py-python-日志信息:添加老师-获取到的结果是：{'retcode': 0, 'id': 301}
+2024-03-27 13:07:31,452-INFO-my_logs.py-python-日志信息:列出老师-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 301, 'realname': '托尼', 'desc': '托尼老师', 'display_idx': 1, 'username': 'Toy', 'courses': [{'course_id': 1360}]}], 'total': 1}
+2024-03-27 13:07:40,110-INFO-my_logs.py-python-日志信息:修改老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:07:48,736-INFO-my_logs.py-python-日志信息:删除老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:20:48,740-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1361}
+2024-03-27 13:20:53,312-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1361, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 13:20:57,990-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:21:02,440-INFO-my_logs.py-python-日志信息:删除课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:21:31,246-INFO-my_logs.py-python-日志信息:添加老师-获取到的结果是：{'retcode': 0, 'id': 302}
+2024-03-27 13:21:39,835-INFO-my_logs.py-python-日志信息:列出老师-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 302, 'realname': '托尼', 'desc': '托尼老师', 'display_idx': 1, 'username': 'Toy', 'courses': [{'course_id': 1362}]}], 'total': 1}
+2024-03-27 13:21:48,370-INFO-my_logs.py-python-日志信息:修改老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:21:56,970-INFO-my_logs.py-python-日志信息:删除老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:26:04,747-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1363}
+2024-03-27 13:26:09,202-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1363, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 13:26:13,731-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:26:18,222-INFO-my_logs.py-python-日志信息:删除课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:26:46,995-INFO-my_logs.py-python-日志信息:添加老师-获取到的结果是：{'retcode': 0, 'id': 303}
+2024-03-27 13:26:55,509-INFO-my_logs.py-python-日志信息:列出老师-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 303, 'realname': '托尼', 'desc': '托尼老师', 'display_idx': 1, 'username': 'Toy', 'courses': [{'course_id': 1364}]}], 'total': 1}
+2024-03-27 13:27:04,061-INFO-my_logs.py-python-日志信息:修改老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:27:12,644-INFO-my_logs.py-python-日志信息:删除老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:30:51,723-INFO-my_logs.py-python-日志信息:添加课程-获取到的结果是：{'retcode': 0, 'id': 1365}
+2024-03-27 13:30:56,151-INFO-my_logs.py-python-日志信息:列出课程-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 1365, 'name': '初中地理', 'desc': '初中地理课程', 'display_idx': 1}], 'total': 1}
+2024-03-27 13:31:00,689-INFO-my_logs.py-python-日志信息:修改课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:31:05,191-INFO-my_logs.py-python-日志信息:删除课程-获取到的结果是：{'retcode': 0}
+2024-03-27 13:31:34,028-INFO-my_logs.py-python-日志信息:添加老师-获取到的结果是：{'retcode': 0, 'id': 304}
+2024-03-27 13:31:42,588-INFO-my_logs.py-python-日志信息:列出老师-获取到的结果是：{'retcode': 0, 'retlist': [{'id': 304, 'realname': '托尼', 'desc': '托尼老师', 'display_idx': 1, 'username': 'Toy', 'courses': [{'course_id': 1366}]}], 'total': 1}
+2024-03-27 13:31:51,211-INFO-my_logs.py-python-日志信息:修改老师-获取到的结果是：{'retcode': 0}
+2024-03-27 13:31:59,827-INFO-my_logs.py-python-日志信息:删除老师-获取到的结果是：{'retcode': 0}
